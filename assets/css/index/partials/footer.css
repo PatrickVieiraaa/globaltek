@@ -1,0 +1,93 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+footer .partes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding: 80px;
+}
+
+footer .partes .parte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+footer .partes .parte.um {
+  width: 50%;
+}
+footer .partes .parte img {
+  width: 100%;
+  max-width: 200px;
+  filter: brightness(1000%);
+}
+footer .partes .parte p {
+  font-family: var(--regular);
+  font-size: var(--f2);
+  color: var(--cor-branco);
+  opacity: 0.7;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 20px 0 0 0;
+}
+footer .partes .parte h3 {
+  font-family: var(--bold);
+  font-size: var(--f2);
+  color: var(--cor-branco);
+}
+footer .partes .parte a {
+  font-family: var(--regular);
+  font-size: var(--f2);
+  color: var(--cor-branco);
+  opacity: 0.7;
+  line-height: 1.5;
+  text-decoration: underline;
+  margin: 20px 0 0 0;
+  transition: all .3s;
+}
+footer .partes .parte a:hover{
+  color: var(--cor-azul);
+}
+
+footer .copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 80px;
+  border-top: 1px solid var(--cor-cinza);
+}
+
+footer .copy p {
+  font-family: var(--regular);
+  color: var(--cor-branco);
+
+}
+
+@media screen and (max-width:1000px) {
+
+  footer .partes {
+    flex-direction: column;
+    padding: 60px 30px 30px 30px;
+  }
+  footer .partes .parte {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+  footer .partes .parte.um {
+    width: 100%;
+  }
+footer .copy {
+  padding: 30px 30px;
+}
+footer .copy p {
+  text-align: center;
+}
+
+  
+}

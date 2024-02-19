@@ -1,1 +1,13 @@
-@import url('../../global/global.css')
+@import url('../../global/global.css');
+@import url(../partials/nav.css);
+@import url(../partials/section_apresentacao.css);
+@import url(../partials/section-faixa.css);
+@import url(../partials/section-produtos.css);
+@import url(../partials/section-pelicula.css);
+@import url(../partials/section-comparacao.css);
+@import url(../partials/section-protecao.css);
+@import url(../partials/section-quemsomos.css);
+@import url(../partials/section-quemusa.css);
+@import url(../partials/section-garantia.css);
+@import url(../partials/section-formulario.css);
+@import url(../partials/footer.css);
